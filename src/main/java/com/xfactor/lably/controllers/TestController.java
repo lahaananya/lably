@@ -21,7 +21,7 @@ public class TestController {
     ArrayList<Lab> labs = new ArrayList<>();
 
     // @RequestMapping(method = RequestMethod.GET)
-    @GetMapping
+    @GetMapping("/hello")
     public String hello() {
         return "Greetings from XFACTOR!!!";
     }
